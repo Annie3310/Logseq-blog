@@ -35,3 +35,4 @@ jobs:
           folder: www # The folder the action should deploy.
           clean: true
           single-commit: true
+          token: ${{ secrets.PUBLISH }}
